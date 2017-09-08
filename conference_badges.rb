@@ -6,5 +6,5 @@ end
 def batch_badge_creator(attendees)
   batch =[]
   batch.push(attendees.each{|e| badge_maker(e)})
-  batch
+  return batch
 end
