@@ -14,3 +14,7 @@ def batch_badge_creator(attendees)
   attendees.each{|e| batch.push( badge_maker(e))}
   return batch
 end
+
+
+def printer
+end
