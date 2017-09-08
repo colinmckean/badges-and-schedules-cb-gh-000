@@ -18,4 +18,5 @@ end
 
 def printer(attendees)
   attendees.each{|name| puts badge_maker(name)}
+  puts assign_rooms(attendees)
 end
